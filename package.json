@@ -1,8 +1,8 @@
 {
-  "homepage": "https://yashuyouwaraj.github.io/K72/",
   "name": "k72",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://yashuyouwaraj.github.io/K72/",
   "type": "module",
   "scripts": {
     "dev": "vite",
