@@ -1,5 +1,5 @@
 
-import Video from './video.jsx'
+import Video from './Video'
 
 const HomeHeroText = () => {
   return (
