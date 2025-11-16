@@ -9,6 +9,26 @@
   font-family: font2;
   src: url(../src/fonts/Lausanne-500.woff2);
 }
-body{
-  background-color: #111;
+
+.moveX{
+  animation-name:moveAnimation;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.moveLink{
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.link:hover .moveLink{
+  opacity: 1;
+}
+
+@keyframes moveAnimation {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
