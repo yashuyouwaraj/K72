@@ -1,6 +1,7 @@
 # k72
 
 A fast, minimal starter template for building React apps with Vite and modern tooling.
+![K72 Screenshot](../assets/home.png)
 
 ## 🛠 Features
 
