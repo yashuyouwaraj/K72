@@ -1,5 +1,5 @@
 
-const Video = () => {
+const VideoPlay = () => {
   return (
     <div className='h-full w-full'>
       <video autoPlay loop muted className="object-cover h-full w-full" src="src/assets/69496b2d.mp4"></video>
@@ -7,4 +7,4 @@ const Video = () => {
   )
 }
 
-export default Video
+export default VideoPlay
