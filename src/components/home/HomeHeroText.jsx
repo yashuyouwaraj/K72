@@ -1,4 +1,4 @@
-import videoGame from "./videoGame"
+import VideoGame from "./videoGame"
 
 const HomeHeroText = () => {
     return (
@@ -9,7 +9,7 @@ const HomeHeroText = () => {
             <div className='lg:text-[9.5vw] text-[12vw] justify-center flex items-start uppercase lg:leading-[8vw] leading-[10vw]'>
                 qui
                 <div className='h-[7vw] w-[16vw] rounded-full -mt-3 overflow-hidden '>
-                    <videoGame />
+                    <VideoGame />
                 </div>
                 génère
             </div>
