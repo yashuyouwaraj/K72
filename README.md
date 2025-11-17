@@ -5,6 +5,9 @@ A fast, minimal starter template for building React apps with Vite and modern to
 
 ## 🛠 Features
 
+![K72 Screenshot](./src/assets/Menu.png)
+
+
 - React + Vite for super-fast development and build times  
 - Hot Module Replacement (HMR) so you see updates instantly  
 - ESLint configured out of the box for code quality  
