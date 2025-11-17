@@ -22,7 +22,7 @@ const Projects = () => {
 
   useGSAP(function () {
     gsap.from('.hero', {
-      height: '40px',
+      height: '100px',
       stagger: {
         amount: 0.4
       },
