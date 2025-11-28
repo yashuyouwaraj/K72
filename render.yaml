@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: k72
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run preview
+    staticPublishPath: dist
+    routes:
+      - type: static
+        source: /
+        destination: /index.html

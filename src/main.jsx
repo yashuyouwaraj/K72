@@ -8,12 +8,12 @@ import NavContext from "./context/NavContext.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
-    <Stairs>
-      <NavContext>
-        <App />
-      </NavContext>
-    </Stairs>
+    <BrowserRouter basename="/">
+      <Stairs>
+        <NavContext>
+          <App />
+        </NavContext>
+      </Stairs>
     </BrowserRouter>
   </StrictMode>
 );

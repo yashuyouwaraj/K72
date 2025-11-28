@@ -1,7 +1,7 @@
 
 import HomeHeroText from '../components/home/HomeHeroText.jsx'
 import HomeBottomText from '../components/home/HomeBottomText.jsx'
-import VideoGame from '../components/home/videoGame'
+import VideoGame from '../components/home/videoGame.jsx'
 
 export const Home = () => {
   return (
