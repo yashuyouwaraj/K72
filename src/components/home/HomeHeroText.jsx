@@ -1,4 +1,4 @@
-import VideoGame from "./videoGame"
+import VideoGame from "./VideoGame.jsx"
 
 const HomeHeroText = () => {
     return (
